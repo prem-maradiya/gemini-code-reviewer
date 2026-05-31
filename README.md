@@ -4,6 +4,10 @@ A command-line tool that reviews code using Google's Gemini models. Point it at 
 file or at your uncommitted git changes, and it reports bugs, security issues, and
 suggested improvements right in your terminal.
 
+<p align="center">
+  <img src="assets/usage.svg" alt="Usage example" width="620">
+</p>
+
 ## Features
 
 - Review an entire file, or only your staged/unstaged git changes (`--diff`)
@@ -63,6 +67,7 @@ On Windows you can also use the included launcher:
 4. Prints the review with color-coded sections.
 
 ```mermaid
+%%{init: {'flowchart': {'nodeSpacing': 25, 'rankSpacing': 28}, 'themeVariables': {'fontSize': '11px'}}}%%
 flowchart TD
     A([Start: run the tool]) --> B{--diff flag?}
     B -- Yes --> C[Run git diff<br/>collect changed lines]

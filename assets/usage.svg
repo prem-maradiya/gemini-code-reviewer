@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" font-family="'SF Mono','Consolas','Menlo',monospace" font-size="14">
+  <rect x="0" y="0" width="760" height="430" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <rect x="0" y="0" width="760" height="34" rx="10" fill="#161b22"/>
+  <rect x="0" y="20" width="760" height="14" fill="#161b22"/>
+  <circle cx="22" cy="17" r="6" fill="#ff5f56"/>
+  <circle cx="42" cy="17" r="6" fill="#ffbd2e"/>
+  <circle cx="62" cy="17" r="6" fill="#27c93f"/>
+  <text x="380" y="22" fill="#8b949e" text-anchor="middle" font-size="12">gemini-code-reviewer — terminal</text>
+
+  <text x="24" y="66" fill="#3fb950">$ <tspan fill="#c9d1d9">python reviewer.py example.py</tspan></text>
+  <text x="24" y="90" fill="#8b949e">Reviewing example.py with Gemini...</text>
+  <text x="24" y="120" fill="#6e7681">============================================================</text>
+  <text x="24" y="142" fill="#f0f6fc" font-weight="bold">CODE REVIEW: example.py</text>
+  <text x="24" y="164" fill="#6e7681">============================================================</text>
+
+  <text x="24" y="194" fill="#f85149" font-weight="bold">### Bugs</text>
+  <text x="24" y="216" fill="#c9d1d9">- calculate_average() crashes on an empty list (ZeroDivisionError).</text>
+
+  <text x="24" y="246" fill="#d29922" font-weight="bold">### Security</text>
+  <text x="24" y="268" fill="#c9d1d9">- Hard-coded password 'admin123' - load it from environment vars.</text>
+  <text x="24" y="290" fill="#c9d1d9">- SQL built by string concat - use parameterized queries instead.</text>
+
+  <text x="24" y="320" fill="#39c5cf" font-weight="bold">### Suggestions</text>
+  <text x="24" y="342" fill="#c9d1d9">- find_user() should return None when no match is found.</text>
+
+  <text x="24" y="378" fill="#3fb950">$ <tspan fill="#c9d1d9">_</tspan></text>
+</svg>
