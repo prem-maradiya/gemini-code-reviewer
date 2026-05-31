@@ -1,0 +1,5 @@
+# Never share these — they contain secrets or are machine-specific
+.env
+venv/
+__pycache__/
+*.pyc
